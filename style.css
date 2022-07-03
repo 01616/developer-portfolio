@@ -11,6 +11,7 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 150px;
 }
 .half-width{
     width: 50%;
@@ -19,7 +20,7 @@ section{
 .half-width img{
     width: 80%;
 }
-a{
+.first{
     padding: 10px 40px;
     
     text-decoration: none;
@@ -28,10 +29,29 @@ color: white;
     background-image: linear-gradient(orange, tomato);
 
 }
-a:hover{
-    
-}
+
 .top{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 80%;
+}
+.two{
+    padding: 10px 40px;
+    
+    text-decoration: none;
+color: white;
+    border-radius: 5px;
+    background-image: linear-gradient(orange, tomato);
+
+}
+.sec{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }

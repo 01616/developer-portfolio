@@ -6,10 +6,13 @@ margin: 0 auto;
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .name{
     color: orange;
 }
-section{
+.flx{
     display: flex;
     margin-bottom: 150px;
 }
@@ -55,3 +58,33 @@ color: white;
     background-repeat: no-repeat;
     background-position: right;
 }
+.ca{
+    color: orange;
+}
+.th{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.card1{
+    
+    box-shadow: 10px 10px 30px gray;
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+    border-left:tomato solid 6px ;
+}
+.card2{
+    width: 50%;
+    padding: 10px;
+    box-shadow: 10px 10px 30px gray;
+    border-left:rgb(162, 112, 182) solid 6px ;
+
+}
+.container{
+    display: flex;}
+  footer p{
+    text-align: center;
+    
+  }  
